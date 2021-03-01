@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/sourav-awesome-project/pendu-run:$SHORT_SHA', '.']
+  args: ['build', '-t', 'gcr.io/rare-mender-305609/pendu-run:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/sourav-awesome-project/pendu-run:$SHORT_SHA']
+  args: ['push', 'gcr.io/rare-mender-305609/pendu-run:$SHORT_SHA']
